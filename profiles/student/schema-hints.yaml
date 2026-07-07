@@ -1,0 +1,47 @@
+# iBrain Student Schema Hints (v0.2 规划)
+# 正式启用时将通过: gbrain schema fork gbrain-base ibrian-student
+
+pack_name: ibrian-student
+description: 学生学习场景的类型与链接约定
+
+page_types:
+  - name: course
+    prefix: courses/
+    primitive: entity
+    extractable: true
+    expert: true
+
+  - name: assignment
+    prefix: assignments/
+    primitive: temporal
+    extractable: true
+
+  - name: exam
+    prefix: exams/
+    primitive: temporal
+    extractable: true
+
+  - name: concept
+    prefix: concepts/
+    primitive: annotation
+    extractable: true
+    expert: true
+
+  - name: mastery-map
+    prefix: mastery/
+    primitive: annotation
+    extractable: true
+
+link_types:
+  - name: teaches
+    from: course
+    to: concept
+  - name: assigned-in
+    from: assignment
+    to: course
+  - name: tested-in
+    from: concept
+    to: exam
+  - name: prerequisite-of
+    from: concept
+    to: concept
