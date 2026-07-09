@@ -7,10 +7,17 @@
 
 ---
 
-## 核心 Skill：study-coach
+## Student Skills（v0.2）
 
-- Skill 规范：[skillpacks/student/skills/study-coach/SKILL.md](skillpacks/student/skills/study-coach/SKILL.md)
+| Skill | 用途 |
+|-------|------|
+| [course-onboard](skillpacks/student/skills/course-onboard/SKILL.md) | 新学期/新课建档 |
+| [study-coach](skillpacks/student/skills/study-coach/SKILL.md) | 日常深度辅导 |
+| [misconception-fix](skillpacks/student/skills/misconception-fix/SKILL.md) | 单点误解纠偏 |
+| [exam-sprint](skillpacks/student/skills/exam-sprint/SKILL.md) | 考前倒排冲刺 |
+
 - 使用示例（**参考形态，非固定模板**）：[docs/EXAMPLES.md](docs/EXAMPLES.md)
+- 一键同步到 gbrain：`bash scripts/sync-skills.sh`
 
 ---
 
@@ -26,4 +33,4 @@
 
 ## 路线图
 
-见 [ROADMAP.md](ROADMAP.md)。当前 **v0.1.1** — study-coach + 示例 + 反僵化规则。
+见 [ROADMAP.md](ROADMAP.md)。当前 **v0.2.0** — 4 个 Student Skills + sync 脚本。
