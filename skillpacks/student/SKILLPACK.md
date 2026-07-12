@@ -1,4 +1,4 @@
-# iBrain Student Skillpack v0.2
+# iBrain Student Skillpack v0.2.1
 
 ## 包含 Skills
 
@@ -8,17 +8,16 @@
 | exam-sprint | `skills/exam-sprint/SKILL.md` | 考前冲刺：倒排优先级 + 每日 checkpoint |
 | misconception-fix | `skills/misconception-fix/SKILL.md` | 误解纠偏：错误/正确模型对比 + 验证题 |
 | course-onboard | `skills/course-onboard/SKILL.md` | 新课程建档：courses/ + mastery/ 骨架 |
+| session-recap | `skills/session-recap/SKILL.md` | 收束：今日摘要 + 明天第一步 + 写回 |
 
 ## 推荐工作流
 
 ```text
 course-onboard（新学期/新课）
     ↓
-study-coach（日常深度练习）
+study-coach / misconception-fix / exam-sprint（辅导）
     ↓
-misconception-fix（卡在一个具体误解时）
-    ↓
-exam-sprint（考前倒排）
+session-recap（收束 — 每次结束或隔天接上）
 ```
 
 ## 安装
@@ -27,7 +26,7 @@ exam-sprint（考前倒排）
 cd ~/Documents/iBrain
 
 # 复制全部 skills 到 gbrain
-for s in study-coach exam-sprint misconception-fix course-onboard; do
+for s in study-coach exam-sprint misconception-fix course-onboard session-recap; do
   cp -r "skillpacks/student/skills/$s" ~/Documents/gbrain/skills/
 done
 

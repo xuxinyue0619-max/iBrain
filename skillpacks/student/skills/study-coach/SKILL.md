@@ -99,6 +99,9 @@ writes_to:
 
 写回 study-sessions/；只记本次真实结论，不复制示例全文。
 
+**推荐收束：** 时间允许或用户说「收束/总结」时，调用 `session-recap` 产出
+`tomorrow_first_step` 与标准 frontmatter（见 `skills/session-recap/SKILL.md`）。
+
 ---
 
 ## 输出参考形态（非固定模板）
