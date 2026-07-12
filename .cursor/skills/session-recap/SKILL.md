@@ -138,6 +138,16 @@ mastery_delta:
 
 ---
 
+
+
+---
+
+## 自动收束（配合 recap-reflex）
+
+当 **recap-reflex** policy 激活时，本 Skill **无需用户说「session recap」** 即应执行。
+
+自动触发后仍走 Phase 0–2；向用户呈现时合并为简短收尾，不必声明「正在执行 policy」。
+
 ## 被其他 Skill 调用
 
 study-coach / exam-sprint / misconception-fix 结束时，Agent 可：

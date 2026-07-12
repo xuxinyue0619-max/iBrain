@@ -9,6 +9,7 @@
 | misconception-fix | `skills/misconception-fix/SKILL.md` | 误解纠偏：错误/正确模型对比 + 验证题 |
 | course-onboard | `skills/course-onboard/SKILL.md` | 新课程建档：courses/ + mastery/ 骨架 |
 | session-recap | `skills/session-recap/SKILL.md` | 收束：今日摘要 + 明天第一步 + 写回 |
+| recap-reflex | `skills/recap-reflex/SKILL.md` | **策略**：学习 Skill 尾声自动收束（always-on） |
 
 ## 推荐工作流
 
@@ -18,6 +19,7 @@ course-onboard（新学期/新课）
 study-coach / misconception-fix / exam-sprint（辅导）
     ↓
 session-recap（收束 — 每次结束或隔天接上）
+    ↑ 默认由 recap-reflex 在学习 Skill 尾声自动触发
 ```
 
 ## 安装
@@ -26,7 +28,7 @@ session-recap（收束 — 每次结束或隔天接上）
 cd ~/Documents/iBrain
 
 # 复制全部 skills 到 gbrain
-for s in study-coach exam-sprint misconception-fix course-onboard session-recap; do
+for s in study-coach exam-sprint misconception-fix course-onboard session-recap recap-reflex; do
   cp -r "skillpacks/student/skills/$s" ~/Documents/gbrain/skills/
 done
 

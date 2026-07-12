@@ -17,6 +17,7 @@
 
 ### 路由优先级（冲突时）
 
+0. **recap-reflex**（always-on policy）— 学习 Skill 尾声自动委托 session-recap；不抢开场路由
 1. **course-onboard** — 用户明确要「建课/新学期」
 2. **session-recap** — 用户明确要「收束/接上/明天第一步」（不新开辅导）
 3. **exam-sprint** — 用户强调剩余天数 + 抓重点/倒排

@@ -53,8 +53,10 @@ cp -r skillpacks/student/skills/study-coach .cursor/skills/
 
 ```
 你连接了 GBrain。学习相关问题优先走 study-coach：
-先查 brain 掌握度，再回答；禁止未诊断就给长篇讲义；
-辅导结束写回 study-sessions/。
+先查 brain 掌握度，再回答；禁止未诊断就给长篇讲义。
+
+【recap-reflex】学生学习类 Skill 结束时，默认自动执行 session-recap 写回 brain，
+除非用户明确说「不要收束/不用写回」。同一次对话不重复 recap。
 ```
 
 ## 5. 第一次测试

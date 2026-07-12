@@ -46,6 +46,7 @@ writes_to:
 4. 1 道验证题（能区分两种模型）
 5. 写回 `concepts/` + `study-sessions/`
 6. 一次最多纠偏 2 个误解
+7. **自动收束**：验证题完成后由 **recap-reflex** 触发 **session-recap**（用户拒绝时跳过）
 
 ## Anti-Patterns
 

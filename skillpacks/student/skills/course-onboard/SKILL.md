@@ -40,6 +40,7 @@ writes_to:
 3. 创建 `courses/` + `mastery/` 骨架；有考试日期则建 `exams/`
 4. 可选指引 `gbrain import`
 5. 给出 study-coach / exam-sprint 下一步触发句
+6. **自动收束**：建档完成后由 **recap-reflex** 轻量 **session-recap**（下一步 + 可选写 sessions）
 
 ## 最小信息集
 

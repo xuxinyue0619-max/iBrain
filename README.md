@@ -16,6 +16,7 @@
 | [misconception-fix](skillpacks/student/skills/misconception-fix/SKILL.md) | 单点误解纠偏 |
 | [exam-sprint](skillpacks/student/skills/exam-sprint/SKILL.md) | 考前倒排冲刺 |
 | [session-recap](skillpacks/student/skills/session-recap/SKILL.md) | 收束 + 明天第一步 |
+| recap-reflex | 自动收束策略（学习结束默认写回） |
 
 - 使用示例（**参考形态，非固定模板**）：[docs/EXAMPLES.md](docs/EXAMPLES.md)
 - 一键同步到 gbrain：`bash scripts/sync-skills.sh`

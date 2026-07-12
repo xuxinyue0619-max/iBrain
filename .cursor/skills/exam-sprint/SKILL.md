@@ -50,6 +50,7 @@ writes_to:
 4. 讲解极简；深练交给 study-coach
 5. 写回 `exams/` + `study-sessions/`
 6. 时间变化立即重排
+7. **自动收束**：倒排给出后由 **recap-reflex** 触发 **session-recap**（用户拒绝时跳过）
 
 ## Anti-Patterns
 
