@@ -19,6 +19,7 @@
 | recap-reflex | 自动收束策略（学习结束默认写回） |
 
 - 使用示例（**参考形态，非固定模板**）：[docs/EXAMPLES.md](docs/EXAMPLES.md)
+- 怎样提问：[docs/HOW-TO-ASK.md](docs/HOW-TO-ASK.md)
 - 一键同步到 gbrain：`bash scripts/sync-skills.sh`
 
 ---
@@ -35,4 +36,4 @@
 
 ## 路线图
 
-见 [ROADMAP.md](ROADMAP.md)。当前 **v0.2.1** — 5 个 Student Skills + sync 脚本。
+见 [ROADMAP.md](ROADMAP.md)。当前 **v0.2.2** — Skills + HOW-TO-ASK + recap-reflex。
