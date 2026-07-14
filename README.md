@@ -24,6 +24,16 @@
 
 ---
 
+## 桌面助手
+
+双击桌面 **iBrain助手.command**，或：
+
+```bash
+bash ~/Documents/iBrain/apps/desktop-assistant/launch.command
+```
+
+见 [apps/desktop-assistant/README.md](apps/desktop-assistant/README.md)。
+
 ## 快速开始
 
 见 [docs/GETTING-STARTED.md](docs/GETTING-STARTED.md)。
