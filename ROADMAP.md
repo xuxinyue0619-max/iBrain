@@ -1,6 +1,10 @@
 # iBrain Roadmap
 
-## v0.3.2（当前）
+## v0.3.3（当前）
+
+- [x] demo/ — 2 分钟展示入口 + 个人考试复习看板 + session 模板
+
+## v0.3.2
 
 - [x] DEV-DIARY.md — 带日期的开发者日记
 - [x] SKILL-ABSTRACTS.md — Skill / 文档能力摘要索引
