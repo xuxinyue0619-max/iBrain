@@ -1,6 +1,11 @@
 # iBrain Roadmap
 
-## v0.3.1（当前）
+## v0.3.2（当前）
+
+- [x] DEV-DIARY.md — 带日期的开发者日记
+- [x] SKILL-ABSTRACTS.md — Skill / 文档能力摘要索引
+
+## v0.3.1
 
 - [x] INTERACTION-PROTOCOL.md — 交互逻辑手册（怎么想、怎么答、怎么记）
 - [x] community/ — 有效教学法贡献区（TEMPLATE + 示范方法）

@@ -1,4 +1,8 @@
-# iBrain Student Skillpack v0.2.1
+# iBrain Student Skillpack
+
+> 摘要名片见 [docs/SKILL-ABSTRACTS.md](../../docs/SKILL-ABSTRACTS.md)；进度见 [docs/DEV-DIARY.md](../../docs/DEV-DIARY.md)。
+> 每个 `SKILL.md` 应含 `## Abstract`（帮谁 / 客观问题 / 不做 / 触发）。
+
 
 ## 包含 Skills
 
@@ -10,6 +14,7 @@
 | course-onboard | `skills/course-onboard/SKILL.md` | 新课程建档：courses/ + mastery/ 骨架 |
 | session-recap | `skills/session-recap/SKILL.md` | 收束：今日摘要 + 明天第一步 + 写回 |
 | recap-reflex | `skills/recap-reflex/SKILL.md` | **策略**：学习 Skill 尾声自动收束（always-on） |
+| artifact-builder | `skills/artifact-builder/SKILL.md` | 窄产物：闪卡 / 小测 / 因果图 |
 
 ## 推荐工作流
 

@@ -25,6 +25,8 @@
 - 怎样提问：[docs/HOW-TO-ASK.md](docs/HOW-TO-ASK.md)
 - 交互逻辑手册：[docs/INTERACTION-PROTOCOL.md](docs/INTERACTION-PROTOCOL.md)
 - 社区教学法贡献：[community/](community/)
+- 开发日志：[docs/DEV-DIARY.md](docs/DEV-DIARY.md)
+- Skill 摘要索引：[docs/SKILL-ABSTRACTS.md](docs/SKILL-ABSTRACTS.md)
 - 一键同步到 gbrain：`bash scripts/sync-skills.sh`
 
 ---
@@ -54,4 +56,4 @@ bash ~/Documents/iBrain/apps/desktop-assistant/launch_pocket_v2.command
 
 ## 路线图
 
-见 [ROADMAP.md](ROADMAP.md)。当前 **v0.3.1** — 交互协议 + 社区教学法贡献区。
+见 [ROADMAP.md](ROADMAP.md)。当前 **v0.3.2** — 开发日志 + Skill 摘要索引。
